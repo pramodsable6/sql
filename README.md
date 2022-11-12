@@ -10,7 +10,8 @@ mysql -u root -p  # (login with password)
 ----
 
 # queries
-```sql
+```
+
 -- To change password for root user
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword@123';
 
